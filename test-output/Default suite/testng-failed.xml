@@ -5,8 +5,8 @@
     <classes>
       <class name="DataProviders.DataProviderTest">
         <methods>
-          <include name="init"/>
           <include name="TearDown"/>
+          <include name="init"/>
           <include name="TestLogin" invocation-numbers="0 2"/>
         </methods>
       </class> <!-- DataProviders.DataProviderTest -->

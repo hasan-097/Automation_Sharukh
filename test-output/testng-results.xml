@@ -2,36 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-14T23:39:31 IST" name="Default suite" finished-at="2024-12-14T23:40:57 IST" duration-ms="85555">
+  <suite started-at="2024-12-18T03:19:41 IST" name="Default suite" finished-at="2024-12-18T03:20:36 IST" duration-ms="55011">
     <groups>
     </groups>
-    <test started-at="2024-12-14T23:39:31 IST" name="Default test" finished-at="2024-12-14T23:40:57 IST" duration-ms="85555">
-      <class name="DataProviders.DataProviderTest">
-        <test-method is-config="true" signature="init()[pri:0, instance:DataProviders.DataProviderTest@30c15d8b]" started-at="2024-12-14T23:39:31 IST" name="init" finished-at="2024-12-14T23:40:35 IST" duration-ms="63215" status="PASS">
+    <test started-at="2024-12-18T03:19:41 IST" name="Default test" finished-at="2024-12-18T03:20:36 IST" duration-ms="55011">
+      <class name="DataDrivenTest.DataDrivenExample">
+        <test-method is-config="true" signature="init()[pri:0, instance:DataDrivenTest.DataDrivenExample@51399530]" started-at="2024-12-18T03:19:42 IST" name="init" finished-at="2024-12-18T03:19:58 IST" duration-ms="16705" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- init -->
-        <test-method signature="TestLogin(java.lang.String,java.lang.String)[pri:0, instance:DataProviders.DataProviderTest@30c15d8b]" started-at="2024-12-14T23:40:35 IST" name="TestLogin" data-provider="dp" finished-at="2024-12-14T23:40:56 IST" duration-ms="21012" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="TestLogin()[pri:0, instance:DataDrivenTest.DataDrivenExample@51399530]" started-at="2024-12-18T03:19:58 IST" name="TestLogin" finished-at="2024-12-18T03:20:36 IST" duration-ms="38002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TestLogin -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:DataProviders.DataProviderTest@30c15d8b]" started-at="2024-12-14T23:40:56 IST" name="TearDown" finished-at="2024-12-14T23:40:57 IST" duration-ms="1155" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:DataDrivenTest.DataDrivenExample@51399530]" started-at="2024-12-18T03:20:36 IST" name="TearDown" finished-at="2024-12-18T03:20:36 IST" duration-ms="246" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-      </class> <!-- DataProviders.DataProviderTest -->
+      </class> <!-- DataDrivenTest.DataDrivenExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

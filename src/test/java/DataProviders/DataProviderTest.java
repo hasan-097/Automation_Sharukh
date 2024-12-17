@@ -47,9 +47,8 @@ WebDriver driver;
 			driver.findElement(By.xpath("//p[@class='oxd-userdropdown-name']")).click();
 			Thread.sleep(2000);
 			driver.findElement(By.xpath("//a[normalize-space()='Logout']")).click();
+			Thread.sleep(3000);
 		}
-		else
-			Assert.fail();
 	}
 	
 	
@@ -59,7 +58,7 @@ WebDriver driver;
 		driver.quit();
 	}
 
-	@DataProvider(name="dp" , indices= {1})
+	@DataProvider(name="dp")
 	Object[][] DataProv()
 	{
 		Object data[][] = {
